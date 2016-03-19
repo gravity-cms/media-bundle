@@ -1,7 +1,7 @@
 {
     "name": "gravity-cms/media-bundle",
     "description": "Media Bundle for GravityCMS",
-    "type": "gravity-cms, symfony",
+    "type": "gravity-cms",
     "license": "MIT",
     "authors": [
         {
