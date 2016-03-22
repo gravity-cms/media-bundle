@@ -71,7 +71,7 @@ class FieldMedia extends Field
     /**
      * @param Media $media
      */
-    public function setMedia(Media $media)
+    public function setMedia($media)
     {
         $this->media = $media;
     }
