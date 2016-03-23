@@ -27,6 +27,11 @@ services:
     tags:
       - { name: gravity_cms.field.display }
 
+  gravity_cms.field.reference.display.media_picture:
+    class: Gravity\MediaBundle\Field\Type\Reference\Display\PictureMediaDisplay
+    tags:
+      - { name: gravity_cms.field.display }
+
 
   gravity_cms.serializer.event_subscriber.meida:
     class: Gravity\MediaBundle\Serializer\EventDispatcher\MediaEventSubscriber
