@@ -4,7 +4,7 @@
     <picture>
         {% for width,image_style in image_styles|reverse(true) %}
             {% if loop.last %}
-                <img srcset="{% path image, image_style %}" alt="{{ media_options.alt }}"  title="{{ media_options.title }}">
+                <img srcset="{% path image, image_style %}" alt="{{ media_options.alt }}"  title="{{ media_options.title }}" class="img-responsive">
             {% else %}
                 <source srcset="{% path image, image_style %}" media="(min-width: {{ width }}px)" >
             {% endif %}
